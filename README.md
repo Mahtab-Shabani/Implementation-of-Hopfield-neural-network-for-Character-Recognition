@@ -2,7 +2,7 @@
 
 Goal: Recognition of uppercase English letters by Hopfield neural network (even if they are noisy)
 
-In this repository, I implement a Hopfield neural network for Character Recognition.
+
 
 STEPS:
 
