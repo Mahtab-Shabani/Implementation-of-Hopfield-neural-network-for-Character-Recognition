@@ -8,9 +8,9 @@ STEPS:
 
 1. Create Network:
 
-[handles.X T]=prprob();
+[handles.X handles.T]=prprob();
 
-handles.Letters='ABCDEF';
+handles.Letters='ABCDEFZ';
 
 handles.LettersIndex=double(handles.Letters)-64;
 
