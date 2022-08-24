@@ -1,0 +1,1 @@
+# Implementation-of-Hopfield-neural-network-for-Character-Recognition
