@@ -1,6 +1,10 @@
 # Implementation-of-Hopfield-neural-network-for-Character-Recognition
 
-### Goal: Recognition of uppercase English letters by Hopfield neural network (even if they are noisy)
+**Goal: Recognition of six first uppercase English letters by Hopfield neural network (even if they are noisy)**
+
+**training set: ABCDEFZ**
+
+**test set: noisy images**
 
 ## STEPS:
 
