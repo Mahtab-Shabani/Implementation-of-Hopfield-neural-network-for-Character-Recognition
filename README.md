@@ -19,6 +19,10 @@ handles.net=newhop(handles.P);
 ![image](https://user-images.githubusercontent.com/21992001/186536489-0b466d51-001c-48a2-b09e-6cb07adafba1.png)
 
 ### 2. Add Noise:
+
+```
+a = a + 0.1 * randn(size(a));
+```
 ![image](https://user-images.githubusercontent.com/21992001/186536659-76094bc5-5332-428a-9eb1-ce6a872f5bf2.png)
 
 ### 3. Test and RUN!
