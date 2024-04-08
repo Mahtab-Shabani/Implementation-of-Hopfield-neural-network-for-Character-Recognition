@@ -6,7 +6,8 @@
 
 **test set: noisy images**
 
-## STEPS:
+STEPS:
+===========
 
 ### 1. Create Network:
 ```
