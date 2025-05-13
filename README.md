@@ -2,29 +2,38 @@
 
 **Goal: Recognition of six first uppercase English letters by Hopfield neural network (even if they are noisy)**
 
-**training set: ABCDEFZ**
+**training set: the characters A, B, C, D, E, F, and Z**
 
 **test set: noisy images**
 
-STEPS:
+🚀 How to Run:
 ===========
+### 1-     Open MATLAB.
 
-### 1. Create Network:
+### 2-     Run the main GUI file: 
 ```
-[handles.X handles.T]=prprob();
-handles.Letters='ABCDEFZ';
-handles.LettersIndex=double(handles.Letters)-64;
-handles.P=handles.X(:,handles.LettersIndex);
-handles.net=newhop(handles.P);
+hop
 ```
+### 3-     In the GUI:
+
+
+#### I. Click "Create Network" to initialize the network with training patterns.
+#### II. Enter a test character (e.g., A, B, ..., Z) in the textbox.
+
 ![image](https://user-images.githubusercontent.com/21992001/186536489-0b466d51-001c-48a2-b09e-6cb07adafba1.png)
 
-### 2. Add Noise:
-
+#### III. Click "Add Noise" to corrupt the input pattern.(It's Optional) 
 ```
 a = a + 0.1 * randn(size(a));
 ```
 ![image](https://user-images.githubusercontent.com/21992001/186536659-76094bc5-5332-428a-9eb1-ce6a872f5bf2.png)
 
-### 3. Test and RUN!
+#### IV. Click "Run"
 ![image](https://user-images.githubusercontent.com/21992001/186536708-f734e390-1f49-4184-b537-f55f140fab8b.png)
+
+(This image is an example of the noisy given input “A”, the network attempts pattern recovery within a set number of steps, and the output at each step will be plotted in real-time, revealing the recovery process.)
+
+License
+===========
+You can view this project on open-source projects. You may fully use it for personal purposes, and it is licensed under the MIT License. You can share, alter, or modify it in any way you like.
+
